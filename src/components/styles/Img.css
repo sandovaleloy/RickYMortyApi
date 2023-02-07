@@ -1,0 +1,30 @@
+.image-container {
+    background-color: #061214;
+    color: white;
+    grid-auto-rows: auto;
+    height: 125px;
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 350px;
+}
+
+.image {
+    height: 482px;
+    width: 1440px;
+    left: -8px;
+    top: -1px;
+    border-radius: 0px;
+    position: relative;
+    max-width: 100%;
+}
+
+.image2 {
+    position: relative;
+    height: 176px;
+    width: 354px;
+    margin: 0 auto;
+    border-radius: 0px;
+    margin-top: -400px;
+    
+}

@@ -1,0 +1,77 @@
+.residentCard {
+    background-color: #062226;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.residentCard__status {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #062226;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.residentCard__status-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.Alive {
+    background-color: yellowgreen;
+}
+
+.unknown {
+    background-color: gray;
+}
+
+.residentCard__status-name {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.residentCard__info {
+    padding: 20px;
+}
+
+.residentCard__name {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.residentCard__line {
+    position: relative;
+    width: 200%;
+    left: -40px;
+}
+
+.residentCard__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: max-content;
+}
+
+.residentCard__item {
+    line-height: 20px;
+}
+
+
+.residentCard__item span {
+    color: gray;
+    font-weight: bold;
+    display: block;
+}
