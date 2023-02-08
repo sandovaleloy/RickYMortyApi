@@ -8,7 +8,6 @@
     margin-top: 15px;
     cursor: pointer;
     border-collapse: separate;
-    border: solid 1px rgb(43, 255, 0); 
 }
 
 .pagination__li {
@@ -27,7 +26,6 @@
     grid-template-columns: repeat(10, 1fr);
     margin: 0 10%;
     width: auto;
-    border: solid 1px red;
     align-items: center;
     position: absolute;
     text-align: center;

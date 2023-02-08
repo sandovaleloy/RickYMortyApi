@@ -8,7 +8,7 @@ import ResidentForm from './components/ResidentForm'
 import ResidentList from './components/ResidentList'
 import { getRandomNumber } from './utils/hanleRandom'
 
-const RESIDENTS_PERPAGE = 2
+const RESIDENTS_PERPAGE = 10
 
 function App() {
 
