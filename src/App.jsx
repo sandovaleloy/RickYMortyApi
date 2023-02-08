@@ -8,7 +8,7 @@ import ResidentForm from './components/ResidentForm'
 import ResidentList from './components/ResidentList'
 import { getRandomNumber } from './utils/hanleRandom'
 
-const RESIDENTS_PERPAGE = 115
+const RESIDENTS_PERPAGE = 2
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
   const [page, setPage] = useState(1)
 
   const hanleSubmit = (e) => {
-     e.preveventDefault()
+     e.preventDefault()
      setNameLocation(e.target.name.value) 
   }
 

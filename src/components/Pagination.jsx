@@ -23,7 +23,7 @@ const Pagination = ({
         ))}
         <form>
           <button
-            onClick={hanleSubmit}
+            onClick={() => setPage(numberPage)}
             className="bx bx-chevrons-right"
           ></button>
         </form>
